@@ -1,0 +1,64 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: url('img/img.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    /* En lugar de 'inline' para permitir establecer altura y anchura */
+    margin-right: 20px;
+    /* Reducido el margen para mayor proximidad entre elementos */
+}
+
+nav a {
+    text-decoration: none;
+    color: #ce0606;
+    /* Color del texto */
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    /* Bordes redondeados */
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo al pasar el ratón sobre el enlace */
+nav a:hover {
+    background-color: #eee;
+    /* Color de fondo al pasar el ratón sobre el enlace */
+    color: #555;
+    /* Cambio de color del texto al pasar el ratón */
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
